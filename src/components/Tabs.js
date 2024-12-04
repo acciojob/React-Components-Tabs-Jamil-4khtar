@@ -1,11 +1,15 @@
 import React from 'react'
+import Home from './Home'
+import About from './About'
+import Features from './Features'
 
 function Tabs() {
     return (
         <div className='tabs'>
-            <div className='tab' id='Home-Tab'>Home</div>
-            <div className='tab' id='About-Tab'>About</div>
-            <div className='tab' id='Features-Tab'>Features</div>
+            <Home/>
+            <About/>
+            <Features/>
+            
         </div>
     )
 }

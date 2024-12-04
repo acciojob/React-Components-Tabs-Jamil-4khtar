@@ -2,7 +2,7 @@ import React from 'react'
 
 function Features() {
     return (
-        <div className='tab' id='Features-Tab'>Features</div>
+        <div id='Features-Tab' className='tab'>Features</div>
     )
 }
 

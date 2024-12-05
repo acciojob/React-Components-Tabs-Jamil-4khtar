@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div id='Features-Tab' className='tab' x>About</div>
+        <div id='About-tab' className='tab'>About</div>
     )
 }
 
